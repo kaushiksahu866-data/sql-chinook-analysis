@@ -105,7 +105,7 @@ LEFT JOIN Invoice i
     ON c.CustomerId = i.CustomerId
 WHERE i.InvoiceId IS NULL;
 ```
-> One of the most tested JOIN patterns in DA interviews. Finds records in the left table with no match in the right table.
+> Finds records in the left table with no match in the right table.
 
 ---
 
